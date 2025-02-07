@@ -1,0 +1,28 @@
+body {
+    background-color: #54d454;
+}
+
+h1{
+    font-family: 'Cinzel Decorative';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 120px;
+    margin-right: 120px;
+    
+}
+
+h1 + img {
+    width: 75px;
+    float: right;
+    border: 2px solid red;
+    margin: 10px;
+}
+
+
+header {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items:center;
+}
